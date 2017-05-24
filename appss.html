@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset='utf-8' />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta content="width=device-width,user-scalable=no" name="viewport">
+  <meta name=“viewport” content=“width=device-width; initial-scale=1.0”>
+  <meta name="description" content="爱小说是一款知识服务应用，电子书阅读，帮助用户更快捷高效的获取有用知识。">
+  <meta name="Keywords" content="爱小说,淘小说,novel">
+  <link rel="shortcut icon" href="./images/Icon40.png" mce_href="./images/Icon40.png" type="image/x-icon">
+  <title>爱小说,为小说发烧</title>
+  <link rel="stylesheet" type="text/css" href="./css/mdownload.css" meta="screen"> 
+  <script src="js/idangerous.swiper.min.js"></script>
+  
+
+<script>
+  var agent = "ios";
+  var is_ios = "1";
+  sUserAgent = navigator.userAgent.toLowerCase();   
+  bIsIpad = sUserAgent.match(/ipad/i) == "ipad";     
+  bIsIphoneOs = sUserAgent.match(/iphone os/i) == "iphone os";    
+  bIsAndroid = sUserAgent.match(/android/i) == "android";
+  function is_weixin(){
+      var ua = navigator.userAgent.toLowerCase();  
+      if(ua.match(/MicroMessenger/i)=="micromessenger") {  
+          return true;  
+      } else {  
+          return false;  
+      }  
+  }
+  function download(){
+      if(is_weixin()){
+        window.location.href = "http://a.app.qq.com/o/simple.jsp?pkgname=com.lql.freenovel365";
+      }else{
+          if(bIsAndroid){
+            downLoadByType(1);
+        }else{
+          downLoadByType(0);
+        }
+      }
+  }
+  function downLoadByType(type){
+    if(type==0){
+         window.location.href='https://itunes.apple.com/us/app/mian-fei-tao-xiao-shuo-mian/id1102744031?mt=8&uo=4';
+     }else{
+      //window.location.href='https://play.google.com/store/apps/details?id=com.lql.freenovel365';
+      window.location.href='https://www.pgyer.com/7BgX';
+      //http://down.mumayi.com/982107/m';
+    }
+     }
+  
+  var _hmt = _hmt || [];
+  (function() {
+    var hm = document.createElement("script");
+    hm.src = "http://hm.baidu.com/hm.js?f59cd30a931d909d523e7269cb297ec7";
+    var s = document.getElementsByTagName("script")[0]; 
+    s.parentNode.insertBefore(hm, s);
+  })();
+</script>
+</head>
+<body>
+<div class="page">
+    <img src="./images/mobile_bg.png" />
+    <header class="logo"></header>
+    <center class="download"><a href="javascript:download();"></a></center>
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="./images/1.png" /></div>
+            <div class="swiper-slide"><img src="./images/2.png" /></div>
+            <div class="swiper-slide"><img src="./images/3.png" /></div>
+            <div class="swiper-slide"><img src="./images/4.png" /></div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+    var baseUrl = "";
+    </script>
+<script type="text/javascript" src="./js/common.js"></script><!-- <script type="text/javascript" src="./js/main.js"></script> -->
+<script type="text/javascript">
+  // var mySwiper = new Swiper('.swiper-container',{
+  //   scrollbar: {
+  //       container : '.swiper-scrollbar',
+  //       draggable : true,
+  //       hide: true,
+  //       loop: true,
+  //       autoplay:5000,
+  //       snapOnRelease: true
+  //   }
+  // });
+  // mySwiper.startAutoplay();  
+  var mySwiper = new Swiper('.swiper-container',{
+    
+        draggable : true,
+        hide: true,
+        loop: true,
+        autoplay:3000,
+        snapOnRelease: true
+  })
+  mySwiper.startAutoplay();
+</script>
+<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1259024940'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s95.cnzz.com/z_stat.php%3Fid%3D1259024940' type='text/javascript'%3E%3C/script%3E"));</script>
+</body>
+</html>
