@@ -1,5 +1,5 @@
 {"search":{"noAllow":["色","色情","好色","情色","暴力","强奸"],"nosource1":[]},"QQ":"272612325","ScoreLotto":[0,0,0,0.5,0.5,0.5,0.5,1,1,1,1,1,1.5,1.5,1.5,2,2,2.5,2.5,3,3],
-"reviewVersion":{"version":"2.5"},"reviewConfig":{"noAllow":["色","色情","好色","情色","暴力","强奸","花千骨","盗墓笔记","风流","猥亵","性","虐","总裁","金麟","池中物","风月","金瓶梅","金瓶"],"enable":"NO","show":"NO"},
+"reviewVersion":{"version":"2.5"},"reviewConfig":{"noAllow":["色","色情","好色","情色","暴力","强奸","花千骨","盗墓笔记","风流","猥亵","性","虐","总裁","金麟","池中物","风月","金瓶梅","金瓶"],"enable":"YES","show":"NO"},
 "shareConfig":{"content":{"jian":"Hi,我正在看《%@》这本书,推荐你下载这个软件一起阅读吧！【%@】 %@","fan":"Hi,我正在看《%@》這本書,推薦你下載這個軟體一起閱讀吧！【%@】 %@"},"shareurl2":"http://lqlstudio.github.io/freenovel","appname":{"jian":"电子书","fan":"电子书"},"des":"书名，软件名，分享地址"},
 "adParam":{"autoclick":true,"autoclickdura":600,"preurl":"itms-appss://itunes.apple.com","adsplashclose":false,"splashtype":"mama","splashtype2":"mama"},
 "adFrequency":{"default":{"name":"Adwo","mins":13,"maxs":40,"maxc":3,"fail":3,"enable":true}},"noDataTip":["无法获取章节内容，请升级到最新版本。\n若已升级到最新版，请删除本书后重新加入书架。","亲爱的用户，由于版权原因，您当前使用的小书亭版本已经停止服务，为了确保您能正常使用，请在360手机助手或点击小书亭“我的-设置-检查更新到最新版本。\n若您已升级到最新版本，请点击下工具栏的换源按钮，选择其他源刷新本页内容，即可继续阅读。"]}
